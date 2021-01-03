@@ -1,6 +1,6 @@
 This is a git practice with mosh 
 ---
-### Orders used in windows bash terminal
+### Git commands used in windows bash terminal
 - git config --global user.name "username"
 - git config --global user.email xxx@gmail.com
 - git config --global core.editor "code --wait"
