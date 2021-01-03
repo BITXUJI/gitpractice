@@ -6,4 +6,4 @@ This is a git practice with mosh
 - git config --global core.editor "code --wait"
 - git config --global -e
 - git config --global core.autocrlf true 
- - this is for windows (if mac there is input instead of true)
+  - this is for windows (if mac there is input instead of true)
