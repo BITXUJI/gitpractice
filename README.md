@@ -55,3 +55,14 @@ This is a git practice with mosh
 - echo hello >bin/app.bin
 - git add .
 - git commit -m "Add bin."
+  - add bin/ in the gitignore
+- git status
+- git add .gitignore
+- git commit -m "Include bin/ in gitignore"
+- echo helloworld >bin/app.bin
+- git ls-files
+- git rm -h
+- git rm --cached -r bin/
+- git ls-files
+- git status
+- git commit -m "Remove the bin directory that was accidentally committed"
