@@ -7,3 +7,16 @@ This is a git practice with mosh
 - git config --global -e
 - git config --global core.autocrlf true 
   - this is for windows (if mac there is input instead of true)
+- git init  
+- ls -a 
+- open .git
+- echo hello >file1.txt
+- echo hello >file2.txt
+- git status
+- git add *.txt  / git add . 
+- git status
+- echo world >>file1.txt
+- git status
+- git commit -m "Initial commit"
+- git status
+- 
