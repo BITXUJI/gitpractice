@@ -86,3 +86,5 @@ This is a git practice with mosh
   - M  README.md
   - MM file1.js
   - A  file2.js
+### Veiwing the Staged and Unstaged Changes
+- 
