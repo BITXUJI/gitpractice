@@ -66,3 +66,23 @@ This is a git practice with mosh
 - git ls-files
 - git status
 - git commit -m "Remove the bin directory that was accidentally committed"
+###  Short Status
+- git status -s 
+- echo sky >> file1.js
+- echo sky > file2.js
+- git status
+- git status -s 
+  - M README.md
+  - M file1.js
+  - ?? file2.js
+- git add file1.js
+- git status -s 
+- git add file2.js
+- git status -s 
+- git add README.md
+- git status -s 
+- echo ocean >>file1.js
+- git status -s 
+  - M  README.md
+  - MM file1.js
+  - A  file2.js
