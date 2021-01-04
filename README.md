@@ -130,4 +130,3 @@ This is a git practice with mosh
 - git commit -m "Delete file1.js"
 - git log --oneline 
 - git restore --source=HEAD~1 file1.js
-- 
