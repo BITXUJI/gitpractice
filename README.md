@@ -87,4 +87,47 @@ This is a git practice with mosh
   - MM file1.js
   - A  file2.js
 ### Veiwing the Staged and Unstaged Changes
+- git diff --staged
+- git status -s 
+- git diff (add some words in file1.js)
+### Visual Diff Tools
+- KDiff3,P4Merge,WinMerge(Windows Only),VSCode
+- git config --global diff.tool vscode
+- git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+- git config --global -e 
+- git difftool
+- git difftool --staged
+### Viewing the History
+- git log
+- git log --oneline
+- git log --oneline --reverse
+### Viewing a Commit
+- git show fdxxxx4
+- git show HEAD
+- git show HEAD~
+- git show HEAD~1
+- git show HEAD~1:.gitignore
+- git ls-tree HEAD~1
+### Unstaging Files
+- git --version 
+- git restore
+- git restore --staged README.md
+- git restore --staged .
+- git status -s 
+### Discarding Local Changes
+- git restore file1.js
+- git restore . 
+- git status -s 
+- git clean (untracked file )
+- git clean -h 
+- git clean -fd 
+- git status -s 
+### Restoring a File to an Earlier Version
+- rm file1.js
+- git rm file1.js (Deleted both in the local directory and stagging area)
+- git status -s 
+- git ls-files
+- git commit -m "Delete file1.js"
+- git log --oneline 
+- git restore --source=HEAD~1 file1.js
 - 
