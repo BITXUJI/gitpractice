@@ -19,4 +19,12 @@ This is a git practice with mosh
 - git status
 - git commit -m "Initial commit"
 - git status
-- 
+- echo test >> file1.txt
+- git commit -am "Fix the bug that prevented the users for signing up."
+- rm file2.txt
+- git status
+- git ls-files
+- git add file2.txt
+- git ls-files
+- git status
+- git commit -m "Remove unused code"
